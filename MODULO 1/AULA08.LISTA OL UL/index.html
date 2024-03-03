@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista</title>
+</head>
+<body>
+    <h1>Trabalhando com lista</h1>
+    <h2>Lista Ordenadas</h2>
+    <ol type="1" start="5"> <!-- 1 A a I i -->
+        <li>Acorda</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para a falculdade</li>
+        <li>Voltar para casa</li>
+        <li>Jantar</li>
+    </ol>
+    <!-- existe um parametro no ol se colocar type="" que mudar o tipo de numeracao -->
+    <!-- Existe outro parametro que é o tylpe="" que especificar qual numero começa mas esse parametro é numerico -->
+    <h2>Lista nao Ordenadas</h2>
+    <ul type="disc"> <!-- disc circle square -->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomante</li>
+        <li>Alface</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    <h1>Juntando lista</h1>
+    <H2>Minhas linguagens favoritas</H2>
+    <ol>
+        <li>Antigas:</li>
+        <ol type="A">
+            <li>Chipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas:</li>
+        <ol type="A" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>NES</li>
+        <ul type="square">
+            <li>Mario Bros</li>
+            <ul type="circle">
+                <li>Mario Bros 3</li>
+                <li>Mario: Lost Levels</li>
+            </ul>
+            <li>Ninjs Gaiden</li>
+        </ul>
+        <li>SNES</li>
+        <ul type="square">
+            <li>Mario</li>
+            <li>Donkey Kong</li>
+        </ul>
+        <li>PlayStation</li>
+        <ul type="square">
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ul>
+    </ol>
+    <!-- se voce segunrar Alt+Click em coisa que quer selecionar criar varios poitens para digitar -->
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>HTML</dt> <!-- Termo -->
+        <dd>Liguagem de marcação para a criação do conteúdo de um site.</dd> <!-- Descrição -->
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do desing de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Liguagem de programação pra a criação de interatividade de um site.</dd>
+    </dl>
+</body>
+</html>

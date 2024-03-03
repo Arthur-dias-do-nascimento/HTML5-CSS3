@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas baixadas</title>
+    <style>
+        @font-face {
+            font-family: 'Love'; /*coloque o nome da fonte que voce quer*/
+            src: url('fonts/love\ story\ ttf.ttf') format(opentype);
+            /*
+            tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advance Typography)
+            - svg
+            */
+            /*voce tambem pode definir um tamanho e peso a font usado font-size e font-weigth*/
+        }
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h1 {
+            font-family: 'Love', sans-serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+        /*Exitem varios sites para que baixer fontes gratis como: dafont.com,
+        caso fique na duvida veja o video do guanabara "usado fontes externas baixadas"*/
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, adipisci rem quasi voluptates quidem minima quae ducimus totam corporis fugiat voluptate vero aut dolores? Quam commodi voluptatum dicta ducimus reprehenderit.</p>
+</body>
+</html>

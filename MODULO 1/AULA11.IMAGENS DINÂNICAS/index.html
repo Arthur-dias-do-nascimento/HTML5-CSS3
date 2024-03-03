@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinámica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplemente aumente e diminua o tamanho do seu navegador.</p>
+    <!-- A tag picture fala que vai aparence uma imagem e perminte que voce crie varios source -->
+    <!-- Para cria um novo source para aplicacoes de outros dispositivos crie um em sima do outro -->
+    <picture>
+        <source media="(max-width: 750px)" srcset="IMAGENS/foto-P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="IMAGENS/foto-M.png" type="image/png">
+        <img src="IMAGENS/foto-G.png" alt="Imagem Flexível">
+    </picture>
+</body>
+</html>

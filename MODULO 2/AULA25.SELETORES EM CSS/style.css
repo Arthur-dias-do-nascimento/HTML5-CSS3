@@ -1,0 +1,42 @@
+/*
+    id = #
+    class = .
+*/
+/*
+    a difereça do id pra class é que id pode ser usar uma vez é uma regra da W3C, mas pode-se usar varias vezes a class
+*/
+
+body {
+    background-color: #cdffcb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: green;
+}
+
+#principal {
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+h2 {
+    color: black;
+}
+
+.basico {
+    color: yellow;
+}
+
+.intermediario {
+    color: blue;
+}
+
+.avançado {
+    color: aqua;
+}
+
+.destaque {
+    background-color: blueviolet;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserido Vídeos hospedados localmente</h1>
+    <p>Este video esta hospedado no meu proprio servidor</p>
+
+    <video controls width="560" poster="MIDIA/limoes-capa-1.png" loop>
+        <source src="MIDIA/pexels_videos_2583471 (720p).mp4" type="video/mp4">
+        <p>Seu navegador nao tem compatibilidade com reproducao de videos.</p>
+    </video>
+    <!-- Dica: coloque todos os tipos de Arquivo Exemplo:
+        Microsoft Edge: MP4 E M4V
+        Apple Safari: MP4 M4V
+        Google Chrome: MPL4 M4V WEBM OGV
+        Mozila Firefox: WEBM OGV
+        Opera: WEBM OGV
+    -->
+    <h1>Inserido Vídeos do youtube</h1>
+    <!-- mas desse jeito colocar o arquivo hospedado faz pesar o seu site se o arquivo do seu site, msa tem o outro jeito de resolver isso com Incorparação de Vídeos externos -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7XzZhrtnSog" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <!-- Crie um canal no youtube para posta esses video para nao hospedar isso no seu servidor para seu cliente -->
+</body>
+</html>

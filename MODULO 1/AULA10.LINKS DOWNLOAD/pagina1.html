@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links Externos</h1>
+    <p>Voce pode acessa o meu <a href="https://github.com/gustavoguanabara" target="_blank" rel="external">repositiorio publico do GitHub</a></p>
+    <p>Voce pode acessar o meu <a href="https://www.youtube.com/@CursoemVideo" target="_blank" rel="external">canal gratuito no youtube</a></p>
+    <!-- para fazer um link externo criar outra pagina olhe o exemplo acima -->
+    <h1>Usando links internos</h1>
+    <p>Essa é a primeira pagina do site. se voce quiser, pode acessar tambem a minha <a href="./pagina2.html" rel="next">Sengunda pagina</a></p>
+    <p>Voce tambem pode acessar a nossa<a href="./noticias/pagina3.html" rel="next" target="_self"> pagina de noticías</a></p>
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="livro/meulivro.pdf" download="meulivro.pdf" type="application/pdf">baixar o livro em PDF</a></li>
+        <li><a href="#">Livro compactando em ZIP</a></li> <em>nao tem zip</em>
+        <!-- para fazer links para download coloque o parametro "download="arquivo"", mas depente de seu narvegador mas se nao ele vai abrir o arquivo, mas tambem existe outro parametro que é o "type="application/pdf"" mas como saber isso?, vai no site "https://www.iana.org/assignments/media-types/media-types.xhtml"-->
+    </ul>
+</body>
+</html>
